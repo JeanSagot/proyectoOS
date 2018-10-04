@@ -1,0 +1,302 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/*
+#00ACE9
+#D43F3F
+#6A9A1F
+#F6F6E8
+#404040
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+h2{ 
+    text-align: center;
+}
+
+h3{
+    color: #F6F6E8;
+    font-size: 50px;
+}
+/*--------------------------------------
+Diseño index
+--------------------------------------*/
+#indexBody{
+    background: #404040;
+}
+
+
+
+#title{
+     margin-top: 15%;
+    color: #F6F6E8;
+}
+
+#info{
+    color: black;
+}
+
+.logoContainer{
+    background: #D43F3F;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu .userCRUD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+#menu .roleCRUD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*****
+hexagon cofigs
+*****/
+
+.hexagonB {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    background-color: #00ACE9;
+    margin: 86.60px 0;
+    margin-left: 2%;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    border-left: solid 5px #333333;
+    border-right: solid 5px #333333;
+}
+
+.hexagonB:before,
+.hexagonB:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 38.9340px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.hexagonB:before {
+    top: -106.0660px;
+    border-top: solid 7.0711px #333333;
+    border-right: solid 7.0711px #333333;
+}
+
+.hexagonB:after {
+    bottom: -106.0660px;
+    border-bottom: solid 7.0711px #333333;
+    border-left: solid 7.0711px #333333;
+}
+
+/*cover up extra shadows*/
+.hexagonB span {
+    display: block;
+    position: absolute;
+    top:2.8867513459481287px;
+    left: 0;
+    width:290px;
+    height:167.4316px;
+    z-index: 2;
+    background: inherit;
+}
+
+.hexagonB:hover{
+    background-color: #64C7CC;
+}
+
+.hexagonG:hover{
+    background-color: #79ef62;
+}
+
+.hexagonG {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    background-color: #6A9A1F;
+    margin: 90.60px 0;
+    margin-left: 2%;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    border-left: solid 5px #333333;
+    border-right: solid 5px #333333;
+}
+
+.hexagonG:before,
+.hexagonG:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 38.9340px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.hexagonG:before {
+    top: -106.0660px;
+    border-top: solid 7.0711px #333333;
+    border-right: solid 7.0711px #333333;
+}
+
+.hexagonG:after {
+    bottom: -106.0660px;
+    border-bottom: solid 7.0711px #333333;
+    border-left: solid 7.0711px #333333;
+}
+
+/*cover up extra shadows*/
+.hexagonG span {
+    display: block;
+    position: absolute;
+    top:2.8867513459481287px;
+    left: 0;
+    width:290px;
+    height:167.4316px;
+    z-index: 2;
+    background: inherit;
+}
+
+/*****
+***/
+.createLink{
+    margin: 25%;
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+.readLink{
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+.updateLink{
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+.deleteLink{
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+.addLink{
+    color: #F6F6E8;
+    text-decoration: none;
+}
+
+
+
+/*--------------------------------------
+Formulario para entradas
+--------------------------------------*/
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+
+.formularioInput, .formularioLabel, .formularioSubmit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.formularioInput{
+    background: rgba(0,0,0,0.1);
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+
+.formularioLabel{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+
+.formularioSubmit{
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.formularioInput:focus + .formularioLabel {
+    margin-top: -135px;
+}
+
+.fijar{
+    margin-top: -135px;
+}
+
+/*--------------------------------------
+Search module
+--------------------------------------*/
+#readTitle{
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.searchBar{
+    text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
