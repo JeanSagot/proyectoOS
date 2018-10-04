@@ -1,0 +1,13 @@
+1. Terminar modulo de Roles.
+2. Enmasacarar password con password field
+3. Hacer dropdown en roles y traducirlos EX. int role_id 1 = system admin
+4. cambiar title
+5. Cambiar OS en barra roja y arreglar menu de back
+6. Configurar apache usar supletorios provistos.
+7. Base de datos se accesa con lenguajesap 
+8. Hacer tabla de roles en base de datos nombre testSagot (ver archivo de sis_ini) coneccion de base a sqlsrv para mas informacion
+9. Enviar script de sqlsrv a daniel completo de ambas tablas
+
+
+https://www.youtube.com/watch?v=UvAPWVkHfgE
+https://www.youtube.com/watch?v=iXEzYBBUsYo&t=2149s
